@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konyo's Adventure – Contact </title>
+    <script src="styleswitcher.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="skip">
+            <h2 class="visually-hidden">Jump to content</h2>
+            <a href="#content2" class="visually-hidden-focusable">Jump to content</a>
+        </nav>
+        <nav class="navbar">
+            <div class="logo"><b>Konyo's Adventure ❤︎</b></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="forvisualimpairment">
+            <button id="toggleStyleButton" onclick="toggleStyle()">Change Style</button>
+        </nav>
+    </header>
+    
+    <main id="content2">
+        <section class="content">
+            <h2>Join Our Caffeine-Fueled Journey!</h2>
+            <p>
+                We invite you to pour yourself a steaming cup of your favorite brew, cozy up with your device, and embark on an adventure like no other with Konyo's Adventures. 
+                Whether you're a coffee connoisseur, a jet-setter in training, or simply a fellow tired traveler, we're here to share the wonders of the world through Konyo's eyes.
+            </p>
+            
+            <div class="fcf-body">
+    
+                <div id="fcf-form">
+    
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="mailto:asmaravianti2004@gmail.com" enctype="text/plain">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required maxlength="50">
+                        </div>
+                    </div>
+    
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required maxlength="50">
+                        </div>
+                    </div>
+    
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Please write your message here!</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+    
+                    <!-- radio button -->
+                    <!-- <label for="Radio button" class="fcf-label">Do you love Konyo? <br> -->
+                    <div class="fcf-form-group">
+                        <p>Do you love Konyo?</p>
+                        <input id="yes" type="radio" name="radio-btn" value="Yes"><label for="yes">Yes</label><br>
+                        <input id="so-much" type="radio" name="radio-btn" value="I love him so much!"><label for="so-much">I love him so much!</label><br>
+                    </div>
+    
+                    <div class="fcf-form-group">
+                        <input id="privacy" type="checkbox" name="Agreement" value="I accept the Privacy Statement"> <label for="privacy">I accept the Privacy Statement</label><br>
+                    </div>
+    
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                    </div>
+    
+                    <div class="fcf-form-group">
+                        <button type="reset" id="fcf-button-reset" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Reset</button>
+                    </div>
+                </form>
+                </div>
+    
+            </div>
+    
+        </section>
+
+    </main>
+
+    
+    <footer class="footer">
+            <p>asmaragracia@gmail.com</p>
+            <p>© 2023 Konyo's Adventure. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
